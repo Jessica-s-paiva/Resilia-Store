@@ -1,0 +1,3 @@
+se está se repetindo é componente
+listar o que é componente e o que é página
+
