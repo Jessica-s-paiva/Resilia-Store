@@ -13,7 +13,7 @@ const Routes = () => {
         <Switch>
             <Route path='/' element={<Home />}/>
             <Route path='/administrador' element={<Administrador />}/>
-            <Route path='/produtos' element={<Produtos />}/>
+            <Route path='/produtos/:categoria' element={<Produtos />}/>
             <Route path='/produtoIndividual' element={<ProdutoIndividual />}/>
 
         </Switch>
