@@ -10,7 +10,7 @@ export const getProdutos = async () => {
     return json;
 }
 
-export const getProdutosPorCategoria = async () => {    
+export const getProdutosPorCategoria = async (categoria) => {    
     const response = await instancia.get(`/produtos/categoria/${categoria}`);
     const json = await response.data.produtos;
     return json;

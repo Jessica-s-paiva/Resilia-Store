@@ -5,6 +5,7 @@ import Administrador from '../Pages/Administrador/Administrador'
 import Produtos from '../Pages/Produtos/Produtos'
 import ProdutoIndividual from '../Pages/ProdutoIndividual/ProdutoIndividual'
 import Header from '../Components/Header/Header'
+import EditarProduto from '../Pages/EditarProduto/EditarProduto'
 
 const Routes = () => {
   return (
@@ -13,6 +14,7 @@ const Routes = () => {
         <Switch>
             <Route path='/' element={<Home />}/>
             <Route path='/administrador' element={<Administrador />}/>
+            <Route path='/editarProduto' element={<EditarProduto />}/>
             <Route path='/produtos/:categoria' element={<Produtos />}/>
             <Route path='/produtoIndividual' element={<ProdutoIndividual />}/>
 

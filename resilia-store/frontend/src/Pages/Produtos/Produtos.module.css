@@ -1,0 +1,18 @@
+.produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* height: 500px; */
+}
+
+.container{
+    background-color: var(--cinza);
+    color: var(--branco);
+
+}
+
+.container  > h2 {
+    padding: 20px;
+}

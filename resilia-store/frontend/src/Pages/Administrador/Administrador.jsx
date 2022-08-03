@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import Lista from '../../Components/Lista/Lista'
 import { getProdutos } from '../../Service/api.js'
-
+import S from './Administrador.module.css'
 const Administrador = () => {
   const [produtos, setProdutos] = useState('');
   
@@ -13,9 +13,8 @@ const Administrador = () => {
     handleRequisicao();
   }, [])
 
-
   return (
-    <section>
+    <section >
         {
           !!produtos && produtos.map((product, index)=>{
             return (<Lista nome={product.nome_abreviado} preco={product.preco} categoria={product.categoria} key={index}/>)

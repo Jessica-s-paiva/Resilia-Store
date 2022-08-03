@@ -1,8 +1,10 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+import S from './Lista.module.css'
 
 const Lista = ({nome, categoria, preco}) => {
   return (
-    <section>
+    <section className={S.container}>
         <div>
             <small>Nome: </small>
             <p>{nome}</p>
@@ -14,6 +16,7 @@ const Lista = ({nome, categoria, preco}) => {
         <div>
             <small>Categoria: </small>
             <p>{categoria}</p>
+            <Link to='/editarProduto'>Editar</Link>
         </div>
     </section>
   )

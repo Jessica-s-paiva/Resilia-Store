@@ -1,0 +1,31 @@
+.imagem{
+    width: 220px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link{
+    margin-bottom: 20px; 
+    padding: 15px;
+    width: 235px;
+    background: #FFB200;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrafo{
+    color: var(--branco);
+    padding: 20px;
+}

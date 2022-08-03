@@ -1,0 +1,39 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cinza);
+    padding: 20px;
+}
+.banner{
+    background-color: black;
+    color: var(--primaria);
+    width: 770px;
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 40px;
+    border: 1px solid #222222;
+    border-radius: 20px;
+}
+
+.banner > h1{
+    font-size: 60px;
+}
+
+.banner > h2{
+    font-size: 30px;
+    padding-top: 20px;
+    color: var(--branco);
+}
+
+.image{
+    width: 450px;
+    height: 590px;
+    padding-left: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
